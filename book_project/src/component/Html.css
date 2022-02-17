@@ -1,0 +1,52 @@
+.container-book {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.book {
+  width: 23.5%; 
+  margin: 8px;
+  height: 480px;
+  background-color: #f2f2f2;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.6em 1.7em;
+  border: 1px solid #4da6ff;
+  margin-top: 30px;
+  margin-left: 15px;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  background-color: #4da6ff;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  color: #000000;
+  background-color: #b3d9ff;
+  border: 1px solid #b3d9ff;
+}
+.book-info p{
+  margin: 10px 10px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+h2{
+  margin-top: 20px;
+  width: 100%;
+}
+.body-pagigation{
+  text-align: center;
+  width: 100%;
+}
+.body-pagigation ul{
+  text-align: center;
+  margin-left: 65vh;
+}

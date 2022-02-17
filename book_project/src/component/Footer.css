@@ -1,0 +1,17 @@
+.site-footer
+{
+    background-color:#26272b;
+    padding:20px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+}
+
+.site-footer 
+{
+  text-align:center
+}
+.copyright-text
+{
+  margin:0
+}
